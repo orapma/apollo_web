@@ -1,0 +1,56 @@
+syntax: glob
+
+htpasswd
+
+# yii console command
+# /yii
+
+# composer vendor dir
+/vendor
+
+# Mac DS_Store files
+.DS_Store
+
+site/config/common.php
+site/config/main.php
+site/config/apns_cert_*
+site/vsrc/*
+site/web/files/*
+site/web/fonts/*
+site/web/scripts/*
+site/web/styles/*
+site/web/v/*
+site/web/img/*
+site/web/images/pics/*
+site/web/images/icons/*
+site/web/images/client/*
+site/extensions/tcpdf/tcpdf/cache/*
+
+site/web/assets/*
+#site/web/css/*
+#site/web/js/*
+site/web/index.php
+
+# local phpunit config
+/site/phpunit.xml
+
+.php_cs.cache
+
+site/runtime/*
+
+/site/node_modules/*
+/site/yarn-error.log
+.idea/*
+.vscode/
+npm-debug.log
+
+\!
+tmp/*
+**.php.bad
+**.orig
+.php_cs.cache
+
+*_BACKUP_*
+*_BASE_*
+*_REMOTE_*
+*_LOCAL_*
